@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
-import db                   from './db';
-import { isToday }          from './helpers';
+import db                   from '../components/db';
+import { isToday }          from '../helpers';
 import cn                   from 'classnames';
 import Calendar             from 'rc-calendar';
 import zhCN                 from 'rc-calendar/lib/locale/zh_CN';
 import moment               from 'moment';
 import 'moment/locale/zh-cn';
 import 'rc-calendar/assets/index.css';
-import './styles/App.css';
+import '../styles/Todo.css';
 
 
 import { Controlled as CodeMirror }   from 'react-codemirror2';
